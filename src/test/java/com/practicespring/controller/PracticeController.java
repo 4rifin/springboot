@@ -14,6 +14,8 @@ public class PracticeController {
 	  @RequestMapping(value = "/")
 	  public String show(HttpServletRequest request, HttpServletResponse response) {
 		  System.out.println("TEsTBoroo");
+		  System.out.println("start to create program");
+		  
 		  return "index";
 
 	  }
